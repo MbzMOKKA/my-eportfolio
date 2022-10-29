@@ -1,16 +1,26 @@
 //Imports
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { interractWithCollapsibleArea } from '../../utils/misc/index';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
 import CollapsibleArea from '../CollapsibleArea/index';
-import { TEST } from './style';
+import Presentation from '../Presentation';
+import colors from '../../utils/style/colors';
 
 //Component
 function App() {
     const [opened, setOpened] = useState(false);
+    const [backgroundAnim, setBackgroundAnim] = useState(0);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setBackgroundAnim(50 + Math.sin(Number(new Date()) / 2000) * 15);
+            document.body.style.background = `linear-gradient(0deg, ${colors.backgroundValue1} 10%, ${colors.backgroundValue2} ${backgroundAnim}%, ${colors.backgroundValue3} 100%)`;
+        }, 1000 / 60);
+    }, [backgroundAnim]);
+
     return (
-        <div className="App">
+        <main>
+            <Presentation />
+            {/*
             <button
                 id="more-button"
                 onClick={() => {
@@ -34,14 +44,8 @@ function App() {
                 <p>3</p>
                 <TEST>10</TEST>
             </CollapsibleArea>
-            <LazyLoadImage
-                alt={'test'}
-                height={200}
-                src={'https://cdn.discordapp.com/attachments/851546956215484426/1030481403462291547/4_0_teaser_10.png'} // use normal <img> attributes as props
-                width={320}
-                effect="blur"
-            />
-        </div>
+            */}
+        </main>
     );
 }
 
