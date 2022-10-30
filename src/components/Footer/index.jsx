@@ -8,6 +8,7 @@ function Footer() {
         <StyledFooter>
             <StyledFooterContent>
                 <a href="https://www.linkedin.com/in/dylanpean/" target="_blanck">
+                    <i className="fa-brands fa-linkedin" />
                     LinkedIn
                 </a>
             </StyledFooterContent>

@@ -14,6 +14,7 @@ const StyledGlobalStyle = createGlobalStyle`
         color: rgb(240,240,240);
     }
     body {
+        background-color: black;
     }
     main{
         position: relative;
@@ -26,12 +27,22 @@ const StyledGlobalStyle = createGlobalStyle`
         margin-top: 22px;
         margin-bottom: 16px;
     }
+    h2{
+        font-size : 24px;
+        font-weight: bold;
+    }
     p{
         font-size : 18px;
     }
     em{
         color: ${colors.primary};
         font-style: normal;
+    }
+    button {
+        background-color: ${colors.primary};
+        border: none;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     }
     .section-end-line{
         background-color: white;
