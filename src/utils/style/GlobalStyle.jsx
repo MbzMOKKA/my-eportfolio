@@ -14,15 +14,17 @@ const StyledGlobalStyle = createGlobalStyle`
         color: rgb(240,240,240);
     }
     body {
-        width:100%;
-        min-height: 100vh;
     }
     main{
-        //padding-top: 17vh;
+        position: relative;
+        min-height: 100vh;
     }
     h1{
         font-size : 36px;
         font-weight: bold;
+        text-align: center;
+        margin-top: 22px;
+        margin-bottom: 16px;
     }
     p{
         font-size : 18px;
@@ -33,11 +35,12 @@ const StyledGlobalStyle = createGlobalStyle`
     }
     .section-end-line{
         background-color: white;
-        width: 50%;
+        width: 80%;
         border-radius: 20px;
         height: 5px;
         margin: auto;
         margin-top: 36px;
+        margin-bottom: 72px;
     }
 `;
 

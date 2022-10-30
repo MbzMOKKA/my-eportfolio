@@ -43,12 +43,6 @@ export const StyledAvatar = styled.img`
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
 `;
 
-export const StyledTitle = styled.h1`
-    text-align: center;
-    margin-top: 22px;
-    margin-bottom: 16px;
-`;
-
 export const StyledDesc = styled.p`
     margin-top: 14px;
     text-align: center;
