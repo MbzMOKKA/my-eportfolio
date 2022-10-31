@@ -26,6 +26,8 @@ const StyledGlobalStyle = createGlobalStyle`
         text-align: center;
         margin-top: 22px;
         margin-bottom: 16px;
+        padding-left 10px;
+        padding-right 10px;
     }
     h2{
         font-size : 24px;

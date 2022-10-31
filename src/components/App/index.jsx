@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import Presentation from '../Presentation/index';
 import ProjectList from '../ProjectList/index';
-import Footer from '../Footer/index';
+import Contact from '../Contact/index';
 import colors from '../../utils/style/colors';
 
 //Component
@@ -23,7 +23,7 @@ function App() {
         <main>
             <Presentation />
             <ProjectList />
-            <Footer />
+            <Contact />
         </main>
     );
 }
