@@ -1,9 +1,8 @@
 const colors = {
     primary: '#9272FB',
-    secondary: '',
     backgroundValue1: '#060412',
-    backgroundValue2: '#3B3057',
-    backgroundValue3: '#222222',
+    backgroundValue2: '#3A1668',
+    backgroundValue3: '#334028',
 };
 
 //Exports

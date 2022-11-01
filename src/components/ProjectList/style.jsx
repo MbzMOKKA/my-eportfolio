@@ -12,4 +12,9 @@ export const StyledSection = styled.section`
 export const StyledList = styled.ul`
     width: 100%;
     margin-top: 42px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 `;

@@ -24,7 +24,7 @@ const projectList = [
         url: 'https://mbzmokka.github.io/SuperMarioMEGALEVELwebsite/',
         thumbnail: imgSuperMarioMEGALEVEL,
         name: 'Super Mario MEGALEVEL',
-        description: `Un fangame Super Mario réalisé avec GameMaker, sur lequel je travail encore de temps à autres mais pas encore disponnible publiquement.`,
+        description: `Un fangame Super Mario réalisé avec GameMaker, sur lequel je travail encore de temps à autres. Il n'est cependant pas encore disponnible publiquement.`,
         year: 2020,
     },
     {
@@ -40,7 +40,7 @@ const projectList = [
         url: 'https://mbzmokka.github.io/ohmyfood/',
         thumbnail: imgOhmyfood,
         name: 'Ohmyfood!',
-        description: `3ème projet de ma formation OpenClassrooms. Utilisation de SASS et d'animation CSS, ainsi que de formulaire HTML. C'est aussi là que j'ai été initié à Git et Github.`,
+        description: `3ème projet de ma formation OpenClassrooms. Il s'agit de l'interface d'un site de commande de menu en ligne. Utilisation de SASS et d'animation CSS, ainsi que de formulaire HTML. C'est aussi là que j'ai été initié à Git et Github.`,
         year: 2022,
     },
     {
@@ -48,7 +48,7 @@ const projectList = [
         url: 'none',
         thumbnail: imgGroupomania,
         name: 'Groupomania',
-        description: `Un réseau intranet complet qui conclua ma formation OpenClassrooms. Présence de fonctionnalités de modération et de récupération automatique des nouvelles publications.`,
+        description: `Un réseau social intranet complet qui conclua ma formation OpenClassrooms. Présence de fonctionnalités de modération et de récupération automatique des nouvelles publications.`,
         year: 2022,
     },
 ];

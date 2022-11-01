@@ -17,14 +17,24 @@ export const StyledProject = styled.li`
     padding-bottom: 20px;
     margin-bottom: 58px;
     box-shadow: 0px 0px 10px ${colors.primary};
+    @media screen and (min-width: 620px) {
+        width: 40%;
+        max-width: 620px;
+        margin-left 18px;
+        margin-right 18px;
+    }
 `;
 export const StyledThumbnail = styled.img`
     width: 100%;
     height: 178px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
     box-shadow: 0px 0px 5px black;
     margin-bottom: 18px;
+    @media screen and (min-width: 1024px) {
+        height: 300px;
+    }
 `;
 export const StyledTextZone = styled.div`
     padding-left: 4%;
