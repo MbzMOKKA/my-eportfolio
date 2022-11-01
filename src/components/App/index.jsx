@@ -1,5 +1,6 @@
 //Imports
 import { useEffect } from 'react';
+import Settings from '../Settings/index';
 import Presentation from '../Presentation/index';
 import ProjectList from '../ProjectList/index';
 import Contact from '../Contact/index';
@@ -21,6 +22,7 @@ function App() {
     //Render
     return (
         <main>
+            <Settings />
             <Presentation />
             <ProjectList />
             <Contact />

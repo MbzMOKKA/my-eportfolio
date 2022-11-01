@@ -49,6 +49,7 @@ const StyledGlobalStyle = createGlobalStyle`
     .section-end-line{
         background-color: white;
         width: 80%;
+        max-width: 1024px;
         border-radius: 20px;
         height: 5px;
         margin: auto;

@@ -12,8 +12,8 @@ url :
 thumbnail :
     image displayed to represent the project
 name
-description :
-    short description that ennumerates some features and technologies
+descriptionId :
+    id of the short description that ennumerates some features and technologies
 year :
     the year of release of the project
 */
@@ -24,7 +24,7 @@ const projectList = [
         url: 'https://mbzmokka.github.io/SuperMarioMEGALEVELwebsite/',
         thumbnail: imgSuperMarioMEGALEVEL,
         name: 'Super Mario MEGALEVEL',
-        description: `Un fangame Super Mario réalisé avec GameMaker, sur lequel je travail encore de temps à autres. Il n'est cependant pas encore disponnible publiquement.`,
+        descriptionId: 10,
         year: 2020,
     },
     {
@@ -32,7 +32,7 @@ const projectList = [
         url: 'none',
         thumbnail: imgOMTBM2,
         name: 'O.M.T.B.M.2',
-        description: `Mon 2ème jeu multijoueur en ligne. Un jeu de tir en vu du dessus. Un gros effort à été porté sur la synchronisation et les animations, comparé au 1er.`,
+        descriptionId: 11,
         year: 2021,
     },
     {
@@ -40,7 +40,7 @@ const projectList = [
         url: 'https://mbzmokka.github.io/ohmyfood/',
         thumbnail: imgOhmyfood,
         name: 'Ohmyfood!',
-        description: `3ème projet de ma formation OpenClassrooms. Il s'agit de l'interface d'un site de commande de menu en ligne. Utilisation de SASS et d'animation CSS, ainsi que de formulaire HTML. C'est aussi là que j'ai été initié à Git et Github.`,
+        descriptionId: 12,
         year: 2022,
     },
     {
@@ -48,7 +48,7 @@ const projectList = [
         url: 'none',
         thumbnail: imgGroupomania,
         name: 'Groupomania',
-        description: `Un réseau social intranet complet qui conclua ma formation OpenClassrooms. Présence de fonctionnalités de modération et de récupération automatique des nouvelles publications.`,
+        descriptionId: 13,
         year: 2022,
     },
 ];

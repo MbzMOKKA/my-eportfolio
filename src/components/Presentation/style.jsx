@@ -41,6 +41,9 @@ export const StyledAvatar = styled.img`
     max-width: 100px;
     max-height: 100px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    @media screen and (min-width: 500px) {
+        right: -30px;
+    }
 `;
 
 export const StyledDesc = styled.p`

@@ -2,6 +2,7 @@
 import ImgMe from '../../assets/me.jpg';
 import ImgMyAvatar from '../../assets/heavy_dev_cup_icon.png';
 import { StyledSection, StyledInfos, StyledPhotoContainer, StyledPhoto, StyledAvatar, StyledDesc } from './style';
+import { useString } from '../../utils/hooks/index';
 
 //Component
 function Presentation() {
@@ -9,23 +10,15 @@ function Presentation() {
         <StyledSection>
             <StyledInfos>
                 <StyledPhotoContainer>
-                    <StyledPhoto alt="C'est moi" src={ImgMe} loading="lazy" />
-                    <StyledAvatar alt="C'est mon avatar" src={ImgMyAvatar} loading="lazy" />
+                    <StyledPhoto alt={useString(15)} src={ImgMe} loading="lazy" />
+                    <StyledAvatar alt={useString(16)} src={ImgMyAvatar} loading="lazy" />
                 </StyledPhotoContainer>
-                <h1>Je suis...</h1>
+                <h1>{useString(0)}</h1>
                 <div>
-                    <StyledDesc>
-                        <em>Dylan Pean</em>, sous le pseudo <em>M.O.K.K.A.</em>...
-                    </StyledDesc>
-                    <StyledDesc>
-                        Développeur indépendant de jeu vidéo depuis 6 ans, j'utilise actuellement le moteur de jeu <em>Game Maker</em> pour réaliser mes créations...
-                    </StyledDesc>
-                    <StyledDesc>
-                        Développeur web récemment diplomé, je sais utiliser <em>ReactJS</em>, <em>NodeJS</em>, <em>ExpressJS</em>, <em>MongoDB</em> et <em>SASS</em>...
-                    </StyledDesc>
-                    <StyledDesc>
-                        Je suis désormais à la recherche d'une <em>alternance</em> ou d'un <em>CDI</em> en tant que développeur web <em>front-end</em> ou <em>fullstack</em>.
-                    </StyledDesc>
+                    <StyledDesc>{useString(2)}</StyledDesc>
+                    <StyledDesc>{useString(3)}</StyledDesc>
+                    <StyledDesc>{useString(4)}</StyledDesc>
+                    <StyledDesc>{useString(5)}</StyledDesc>
                 </div>
             </StyledInfos>
             <span className="section-end-line"></span>

@@ -1,4 +1,7 @@
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useContext } from 'react';
+import stringList from '../../datas/textStrings';
+import HTMLparse from 'html-react-parser';
+import { LanguageContext } from '../context/index';
 
 /*
 const elementRef = useRef();
@@ -7,6 +10,7 @@ const onClickOutside = ()=>{
 }
 useClickOutside(elementRef, onClickOutside);
 */
+//Execute the callback if the user click outside of the elementRef
 export function useClickOutside(elementRef, callback) {
     const callbackRef = useRef();
     callbackRef.current = callback;
@@ -22,4 +26,10 @@ export function useClickOutside(elementRef, callback) {
             document.removeEventListener('click', handleClickOutside, true);
         };
     }, [callback, elementRef]);
+}
+
+//Return a string of the app to be displayed in the user-selected language
+export function useString(id) {
+    const { language } = useContext(LanguageContext);
+    return HTMLparse(stringList[id][language]);
 }
