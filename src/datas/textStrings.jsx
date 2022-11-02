@@ -6,11 +6,11 @@ const stringList = [
     //2
     [`<em>Dylan Pean</em>, sous le pseudo <em>M.O.K.K.A.</em>...`, `<em>Dylan Pean</em>, also known as <em>M.O.K.K.A.</em>...`],
     //3
-    [`Développeur indépendant de jeu vidéo depuis 6 ans, j'utilise actuellement le moteur de jeu <em>Game Maker</em> pour réaliser mes créations...`, `an Indie Game Developer since 2016, I am currently using <em>Game Maker</em> as my engine to make my projects...`],
+    [`Développeur indépendant de jeu vidéo depuis 6 ans, j'utilise actuellement le moteur de jeu <em>Game Maker</em> pour réaliser mes créations...`, `An Indie Game Developer since 2016, I am currently using <em>Game Maker</em> as my engine to make my projects...`],
     //4
-    [`Développeur web récemment diplomé, je sais utiliser <em>ReactJS</em>, <em>NodeJS</em>, <em>ExpressJS</em>, <em>MongoDB</em> et <em>SASS</em>...`, `a recently graduated Web Developer, I know how to use <em>ReactJS</em>, <em>NodeJS</em>, <em>ExpressJS</em>, <em>MongoDB</em> and <em>SASS</em>...`],
+    [`Développeur web récemment diplomé, je sais utiliser <em>ReactJS</em>, <em>NodeJS</em>, <em>ExpressJS</em>, <em>MongoDB</em> et <em>SASS</em>...`, `A recently graduated Web Developer, I know how to use <em>ReactJS</em>, <em>NodeJS</em>, <em>ExpressJS</em>, <em>MongoDB</em> and <em>SASS</em>...`],
     //5
-    [`À la recherche d'une <em>alternance</em> ou d'un <em>CDI</em> en tant que développeur web <em>front-end</em> ou <em>fullstack</em>.`, `looking for an <em>internship</em> or <em>full time</em> job as a <em>frontend</em> or <em>fullstack</em> web developer.`],
+    [`À la recherche d'une <em>alternance</em> ou d'un <em>CDI</em> en tant que développeur web <em>front-end</em> ou <em>fullstack</em>.`, `Looking for an <em>internship</em> or <em>full time</em> job as a <em>frontend</em> or <em>fullstack</em> web developer.`],
     //6
     [`Projets principaux`, `Main projects`],
     //7

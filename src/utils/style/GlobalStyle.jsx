@@ -45,6 +45,9 @@ const StyledGlobalStyle = createGlobalStyle`
         border: none;
         border-radius: 10px;
         box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+        :hover{
+            cursor: pointer;
+        }
     }
     .section-end-line{
         background-color: white;

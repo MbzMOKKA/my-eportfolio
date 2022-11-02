@@ -17,6 +17,14 @@ export const StyledProject = styled.li`
     padding-bottom: 20px;
     margin-bottom: 58px;
     box-shadow: 0px 0px 10px ${colors.primary};
+    ${({ url }) =>
+        url !== 'none'
+            ? `
+    :hover{
+        cursor: pointer;
+    }
+    `
+            : null};
     @media screen and (min-width: 620px) {
         width: 40%;
         max-width: 620px;
@@ -48,8 +56,8 @@ export const StyledRelease = styled.p`
     font-style: italic;
 `;
 export const StyledDescription = styled.p`
+    color: rgba(240, 240, 240, 0.75);
     line-height: 1.4;
-    opacity: 0.75;
 `;
 export const StyledLink = styled.div`
     background-color: rgba(255, 255, 255, 0.1);

@@ -10,7 +10,7 @@ function Contact() {
             <h1>{useString(7)}</h1>
             <StyledFooterContent>
                 <StyledContactLink>
-                    <a href="https://www.linkedin.com/in/dylanpean/" target="_blanck">
+                    <a href="https://www.linkedin.com/in/dylanpean/" target="_blank" rel="noreferrer">
                         <i className="fa-brands fa-linkedin" />
                         <p>{useString(8)}</p>
                     </a>

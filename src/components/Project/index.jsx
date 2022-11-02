@@ -14,6 +14,7 @@ function Project({ data }) {
     //Render
     return (
         <StyledProject
+            url={data.url}
             onClick={() => {
                 openProjectWebsite();
             }}
