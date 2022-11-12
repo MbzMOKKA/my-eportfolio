@@ -10,8 +10,8 @@ function Presentation() {
         <StyledSection>
             <StyledInfos>
                 <StyledPhotoContainer>
-                    <StyledPhoto alt={useString(15)} src={ImgMe} loading="lazy" />
-                    <StyledAvatar alt={useString(16)} src={ImgMyAvatar} loading="lazy" />
+                    <StyledPhoto alt={useString(15)} src={ImgMe} />
+                    <StyledAvatar alt={useString(16)} src={ImgMyAvatar} />
                 </StyledPhotoContainer>
                 <h1>{useString(0)}</h1>
                 <div>

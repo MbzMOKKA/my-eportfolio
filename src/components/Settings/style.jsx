@@ -1,10 +1,10 @@
 //Imports
 import styled from 'styled-components';
-import colors from '../../utils/style/colors';
 
 //Exports
 export const StyledContainer = styled.div`
     position: fixed;
+    z-index: 1;
     top: 18px;
     left: 3%;
 `;
